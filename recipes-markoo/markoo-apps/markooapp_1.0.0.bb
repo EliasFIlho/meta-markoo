@@ -6,10 +6,6 @@ LIC_FILES_CHKSUM = "file://${COMMON_LICENSE_DIR}/MIT;md5=0835ade698e0bcf8506ecda
 
 # Where to find sources files (local, github, etc...)
 
-IMAGE_INSTALL:append = " python3 python3-pip python3-picamera2 python3-dev"
-IIMAGE_INSTALL:append = " ffmpeg pyaudio alsa-utils"
-
-
 SRC_URI = "file://src"
 
 #Where to keep downloaded source files (in tmp/work/...)
